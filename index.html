@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>GitHub-tutorial by tristanm7522</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>GitHub-tutorial</h1>
+        <h2>GitHub project portfolio</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/tristanm7522/github-tutorial/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/tristanm7522/github-tutorial/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/tristanm7522/github-tutorial" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Tristan Molina</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p><strong>Git</strong> is a <em>system of files</em> that keep track of any changes you made in them. <strong>Github</strong> provides repositories where you can <em>store and share</em> your code and work with the world, or keep it to yourself. <strong>Github</strong> also has it's own website which is easier to use. Signing up to Github is a one time thing just like an email. Just remember your username and password.</p>
+
+<p>Click to go to <a href="http://www.github.com">Github Website</a></p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>After setting up a Github account you can set up a new SSH key. On the IDE website you are using like <a href="https://c9.io">Cloud9</a> click the settings button (May appear as a gear) while on the home page. While in the settings you will see an SSH keys tab, click it to see your SSH key, Copy the SSH key it gives you (it will appear as a whole bunch of letters and numbers but don't worry your not being hacked or anything he he) Now that you have the SSH key go to <a href="http://github.com">Github.com</a> and go to your settings into the SSH key tab. Now click the <em>add SSH key</em> button. Add a title such as <em>Cloud9</em> then paste your SSH key inthe box that says SSH key or just key. Press add and you now have your SSH key one time setup complete.</p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>Now to set up your repository you neet to return to your IDE. In you perfered directory use the code <strong>git init</strong>. After that you will need a <em>new repository</em>. To create a repository you must click your profile avatar or the <strong>top right of the webite</strong> to open it's drop down meñu. Click <strong>"Your profile"</strong>. Now you should be on a new page, you should see three tabs near the top of your screen. One of these tabs is labled <strong>"Repositories"</strong>. Click Repositories to continue to the next step. Now you shoud see a <em>green button</em> that says <strong>"New"</strong>, click on it to create a new repository. Your <em>repository name</em> should be the same as your file name on your IDE. remember to keep it simple. When you are finished press the <em>green</em> <strong>"Create Repository"</strong> button. Now you will see a whole bunch of code you can copy and paste ito your command line but first you must make sure you are inside your folder. To move into a created folder use this command "cd name of your folder". Now type the commands under "<strong>...or create a new repository on the command line</strong>" one by one, line after line.</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>Here are four need to know commands when using git.</p>
+
+<ol>
+<li>git status - Tells you if there are any files added and need to be commited, also tells you the code to commit a sile or all files.</li>
+<li>git add - Allows you to add a file to be commited. To add a file you must be in the same directory that the README.md is in and the README.md must be saved before added.</li>
+<li>git commit -m "" - This code allows you to commit the file you added so now it may be pushed a repository. To use it you must have a file already added. Inside the quotes I put in the code you can add what you want such as what you changed,added or deleted.</li>
+<li>git push - this command will take you commited file and push it up to the repository it belongs it on gihub.</li>
+</ol>
+
+<p>Here is some markdown syntax to use when writting in your README.md files to make it look more professional and easy to read.</p>
+
+<h3>
+<a id="markdown-syntax" class="anchor" href="#markdown-syntax" aria-hidden="true"><span class="octicon octicon-link"></span></a>Markdown Syntax</h3>
+
+<ul>
+<li><strong>Headings</strong></li>
+</ul>
+
+<p>To create headings you need to use this symbol #. Headings have 6 levels. the hight the level the smaller the heading and less # required. To create a heading you need to put a # before the work or sentence you wish to make a header. Here are some examples of all header levels.</p>
+
+<h1>
+<a id="level-1" class="anchor" href="#level-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Level 1</h1>
+
+<h2>
+<a id="level-2" class="anchor" href="#level-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Level 2</h2>
+
+<h3>
+<a id="level-3" class="anchor" href="#level-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Level 3</h3>
+
+<h4>
+<a id="level-4" class="anchor" href="#level-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Level 4</h4>
+
+<h5>
+<a id="level-5" class="anchor" href="#level-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Level 5</h5>
+
+<h6>
+<a id="level-6" class="anchor" href="#level-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>Level 6</h6>
+
+<ul>
+<li><strong>Bold Text</strong></li>
+</ul>
+
+<p>To make your text bold you must use the star symbol twice on each end of the text you want to be bold. In the end the text will look like this "<strong>important</strong>".</p>
+
+<ul>
+<li><strong>Italacized Text</strong></li>
+</ul>
+
+<p>To make text italacized you need to put an underscore one each end of the text you want to italicized. In the end the text will look like this "<em>kinda important?</em>".</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
